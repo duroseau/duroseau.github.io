@@ -1,0 +1,105 @@
+* {
+   padding: 0;
+   margin: 5px;
+   text-align: center;
+ }
+ 
+ body {
+   background-image: url('snowflake-gif');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+  
+ .calculator {
+   width: 350px;
+   height: 450px;
+   background: linear-gradient(to right, tomato, white, tomato, white);
+   box-shadow: 0px 0px 0px 10px rgba(9, 134, 118, 0.089);
+   border: 5px solid black;
+   border-radius: 10px;
+ }
+       
+ button{
+   color: rgb(73, 66, 5);
+   background-color: #f8e91ce5;
+   font-size: 20px;
+   margin: 4px;
+   width: 70px;
+   height: 40px;
+ }
+ 
+ button:hover{
+   background: blue;
+ }
+ 
+ .btn-yellow{
+   background: rgb(245,146,62);
+   color: white;
+ }
+ .btn-grey{
+   background: rgb(17, 190, 75);
+ }
+       
+ #btn-equal{
+   background: rgb(73, 19, 201);
+ }
+ 
+ #btn-clear{
+   display:flex;
+   justify-items: self-end ;
+   background: red;
+   border-radius: 500px;
+ }
+      
+ element.style {
+     font-size: relative;
+ }
+ 
+ .hide {
+     display: none;
+ }
+   
+ .myDIV:hover + .hide {
+   display: block;
+   color: orange;
+ }
+ 
+ #container {
+   left: 50%;
+   top: 50%;
+   position: relative; 
+ }
+   
+ #screen {
+   font-size: 4rem;
+   padding: .01rem;
+   background: rgb(41,41,56);
+   color: rgb(245, 239, 239);
+   border: 3px solid;
+   height:80px;
+   width: 330px;
+ }
+ 
+ #decimal{
+   background: rgb(238, 180, 133);
+ }
+ 
+ #modulo {
+   background: pink;
+ }
+ 
+ .glassy-text {
+   font-family: courier;
+   font-size: large;
+   text-align: center;
+   padding: 20px 40px;
+ }
+ 
+ @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+   .glassy-text {
+     -webkit-backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
+     background-color: rgba(255, 255, 255, 0.5);
+   }
+ }
